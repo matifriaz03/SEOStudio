@@ -1,0 +1,670 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+/* work for nav bar */
+
+.navbar-nav {
+    /* border: solid red; */
+    margin-right: 4rem;
+}
+
+.nav-link {
+    /* border: 1px solid red; */
+    font-weight: bold;
+    color: black;
+    padding: 1rem 1.5rem !important;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: "Poppins";
+}
+
+/* work for main image */
+
+.mainimg {
+    background-image: url("./images/emmanuel-acua-f3P6xfrj2P8-unsplash\ \(1\).jpg");
+    /* width: 100vw; */
+    /* height: 100vh; */
+    background-position: center;
+    background-size: cover;
+    /* border:1px solid rgba(233, 17, 64, 0); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* work for main image text */
+
+.main_image_text {
+    text-align: center;
+    margin-top: 4rem;
+    /* border: 1px solid red; */
+    color: white;
+    /* font-size: 20px;
+    font-weight: bolder; */
+    font-family: "Poppins";
+    /* padding: 0px 10px !important; */
+}
+
+.separator {
+    width: 10rem;
+    height: 2px;
+    /* color: red; */
+    background-color: salmon;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.text3 {
+    width: 40%;
+    margin: 0px auto;
+    text-align: center;
+    /* border:1px solid red */
+}
+
+.text1 h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.text1 {
+    /* border:1px solid red; */
+    margin: 1rem 0rem;
+    color: rgb(16, 115, 139);
+    /* font-size: 4rem !important; */
+    /* padding: 2rem; */
+}
+
+.text2 {
+    /* border:1px solid red; */
+    margin: 2rem 0rem;
+    color: rgb(68, 45, 65);
+}
+
+.text2 h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.text3 {
+    /* border:1px solid red; */
+    margin-top: 2rem;
+    width: 200px;
+}
+
+.text3 p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+    /* border: 1px solid red; */
+    text-shadow: 2px 2px 3px black;
+}
+
+/* work for main Buttons */
+
+.main_image_button {
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+}
+
+.free_consultation {
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 9px 16px;
+    border: 2px solid wheat;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 1rem;
+    color: rgb(10, 62, 75);
+    
+    outline: none !important;
+}
+
+.free_consultation:hover {
+    background-color: rgb(10, 62, 75);
+    cursor: pointer;
+    transition: all 0.4s;
+    border: 1px solid royalblue;
+    color: black;
+}
+
+.learn_more {
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 9px 43px;
+    border: 2px solid wheat;
+    /* width: 18%; */
+    text-align: center;
+    font-weight: 900;
+    font-size: 17px;
+    margin-top: 1rem;
+    color: rgb(10, 62, 75);
+    outline: none !important;
+}
+
+.learn_more:hover {
+    background-color: rgb(10, 62, 75);
+    cursor: pointer;
+    transition: all 0.4s;
+    border: 1px solid royalblue;
+    color: black;
+}
+
+/* work for Welcome div */
+
+.welcome {
+    /* border: 1px solid red; */
+    padding: 6rem 0rem;
+}
+
+.welcome_1 {
+    /* border: 1px solid red; */
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.separator_1 {
+    border: 1px solid rgb(8, 99, 43);
+    width: 30%;
+    margin-left: 2rem;
+}
+
+.welcome_2 {
+    /* border: 1px solid red ; */
+    margin-top: 2rem;
+    text-align: center;
+    font-family: Poppins;
+    color: black;
+    font-weight: 600;
+}
+
+.welcome_3 {
+    /* border: 1px solid red; */
+    margin-top: 1rem;
+    text-align: justify;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    color: #8f8b88;
+}
+
+.get {
+    background-color: transparent;
+    padding: 1.1rem 3rem;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 45px;
+    margin-top: 2rem;
+    margin-left: 2.4rem;
+    text-align: center;
+    outline: none !important;
+    transition: all 0.6s;
+}
+
+.get:hover {
+    background-color: rgb(122, 52, 111);
+    color: white;
+    border-color: rgb(70, 3, 70);
+    padding: 1.1rem 3.5rem;
+}
+
+/* work for graph */
+
+.graph {
+    /* border: 1px solid red; */
+    margin-top: 2rem;
+    /* margin-left: 2rem; */
+    overflow-x: hidden !important;
+    text-align: center;
+}
+
+/* work for services */
+
+.services {
+    background-color: #f2f3f8;
+    /* border: 1px solid red; */
+    padding: 4rem 0px;
+}
+
+.services_1 {
+    /* border: 1px solid red; */
+    text-align: center !important;
+    margin-bottom: 1rem;
+    /* padding-bottom: 5rem; */
+    font-weight: bolder;
+}
+
+/* work for our_services_items */
+
+.services_buttons {
+    /* border: 1px solid red; */
+    font-size: 25px;
+    text-align: center;
+}
+
+.our_services_items span {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bolder;
+    /* border: 1px solid red; */
+    padding-left: 1rem;
+    color: black;
+}
+
+.our_services_items i {
+    color: rgb(3, 146, 146);
+    font-size: 30px;
+}
+
+.our_services_items {
+    /* border: 1px solid red; */
+    margin-top: 3rem;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 15px;
+    transition: all 0.5s;
+    padding: 0.4rem 0.5rem;
+    color: #a9abaf;
+}
+
+.our_services_items p {
+    padding-top: 0.6rem;
+}
+
+.our_services_items:hover {
+    background-color: white;
+    border-radius: 6px;
+}
+
+.adv {
+    /* border: 1px solid red; */
+    padding: 0px 25px;
+}
+
+/* work for pricing */
+
+.pricing {
+    /* border: 1px solid red; */
+    padding-bottom: 5rem;
+}
+
+.pricing_1 {
+    /* border: 1px solid red; */
+    text-align: center;
+    width: 100% !important;
+    margin-top: 3rem;
+}
+
+.pricing_1 h1 {
+    font-size: 45px;
+    font-weight: bold;
+    /* border: 1px solid red; */
+}
+
+/* work for card */
+
+.card_1 {
+    /* border: 1px solid red; */
+    width: 18rem;
+    height: 28rem;
+    margin-top: 4rem;
+    margin: 0px auto;
+    background-color: #f8f9fb;
+    transition: all 0.5s;
+}
+
+.card_main {
+    /* border: 1px solid red; */
+    margin-bottom: 2rem;
+}
+
+.card_row {
+    margin-top: 4rem;
+    /* border: 1px solid red; */
+}
+
+.card_1 h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 1rem 0.3rem;
+}
+
+.card_1 h2 {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+.cardheader {
+    background-color: #4ee492;
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+
+.cardbutton_div {
+    text-align: center;
+    /* border: 1px solid red; */
+    margin: 2rem 0px;
+}
+
+.cardbutton {
+    /* border: 1px solid red; */
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgb(104, 233, 157);
+    padding: 0.5rem 3rem;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.keyelement {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    padding: 15px 0px;
+}
+
+.keyelement span {
+    line-height: 35px;
+    /* border: 1px solid red; */
+    font-family: Poppins;
+    font-weight: 500;
+    padding-left: 6px;
+}
+
+.keyelement i {
+    padding-left: 0.5rem;
+}
+
+.fa-envelope {
+    color: rgb(3, 146, 146);
+}
+
+.icon_text {
+    color: black;
+}
+
+.card_1:hover {
+    box-shadow: 1px 8px 16px blue;
+    cursor: pointer;
+}
+
+.cardheader:hover {
+    background-color: blue;
+}
+
+/* work for consultation */
+
+.consultation {
+    background: rgb(11, 110, 193);
+    background: linear-gradient(90deg, rgba(11, 110, 193, 1) 0%, rgba(47, 172, 168, 1) 48%, rgba(75, 221, 150, 1) 100%);
+    padding: 4rem 0rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.consult_heading {
+    /* border: 1px solid red; */
+    font-weight: bolder;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.consult_para {
+    /* border: 1px solid red; */
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.consult_buttondiv {
+    /* border: 1px solid red !important; */
+    text-align: center;
+    margin-top: 4.5rem;
+    /* width: 100%; */
+    outline: none;
+}
+
+.consult_button {
+    /* border: 1px solid red !important; */
+    background-color: transparent;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 30px;
+    color: white;
+    padding: 1rem 2.5rem;
+    transition: 0.8s all;
+    border: 1px solid white;
+    margin-left: 0.5rem;
+    /* width: 100%; */
+    outline: none !important;
+}
+
+.consult_button:hover {
+    background-color: royalblue;
+    border: 1px solid royalblue
+}
+
+/* work for our project */
+
+.ourproject_div {
+    /* border: 1px solid red; */
+    margin: 0px auto;
+}
+
+.ourproject_head {
+    /* border: 1px solid red; */
+    text-align: center;
+    font-weight: bold;
+}
+
+.ourproject_img {
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.ourproject_img img {
+    width: 100% !important;
+}
+
+.ourproject_para {
+    color: rgb(58, 207, 120);
+    padding-top: 2rem;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* work for contact us */
+
+.contactus {
+    /* border: 1px solid red; */
+    background: rgb(11, 110, 193);
+    background: linear-gradient(90deg, rgba(11, 110, 193, 1) 0%, rgba(47, 172, 168, 1) 48%, rgba(75, 221, 150, 1) 100%);
+    padding: 2.5rem 0rem;
+    text-align: center;
+}
+
+.contactus_para {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.hot {
+    /* border: 1px solid red; */
+    padding: 2px 4px;
+    background-color: rgb(58, 207, 120);
+    text-align: center;
+}
+
+/* work for testimonial */
+
+.testimonial_img {
+    background-image: url(images/annie-spratt-QckxruozjRg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-top: 3rem;
+}
+
+.testimonial_head {
+    /* border: 1px solid red; */
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.testimonial_para {
+    margin-top: 2rem;
+    /* border: 1px solid red; */
+}
+
+.testimonial_paradiv {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.testimonial_customer {
+    /* border: 1px solid red; */
+    margin-top: 1.5rem;
+}
+
+.testimonial_customer img {
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    width: 6rem;
+}
+
+.testimonial_customer span {
+    color: rgb(27, 226, 233);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* work for contact us */
+
+.contact_us {
+    /* border: 1px solid red; */
+    margin-top: 5rem;
+}
+
+.contactus_head {
+    margin-left: 2.6rem;
+}
+
+.sss {
+    margin-left: 3rem;
+}
+
+.g-3 {
+    /* border: 1px solid red; */
+    margin-top: 3rem;
+}
+
+.form-control {
+    /* border: 1px solid red; */
+    border-radius: 25px;
+    background-color: #f2f3f8;
+    padding: 1.7rem 1rem;
+    text-align: left;
+}
+
+.form-floating {
+    /* border: 1px solid red; */
+    margin-top: 3rem;
+}
+
+/* work for address */
+
+.address_maindiv {
+    /* border: 1px solid red; */
+    padding: 1rem 1rem;
+    /* border: 1px solid red; */
+    /* width: 80% !important; */
+}
+
+.separator_address {
+    /* border: 1px solid red; */
+    height: 2px;
+    background-color: salmon;
+    /* margin-left: 8px; */
+}
+
+.address_icon {
+    color: rgba(75, 221, 150, 1);
+    font-size: 25px;
+    padding-top: 8px;
+}
+
+.chicago {
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 18px;
+    padding-left: 0.6rem;
+}
+
+.chicago_div {
+    margin-top: 1.5rem;
+}
+
+.qqq {
+    /* border: 1px solid red; */
+    margin-top: 2rem;
+}
+
+.sat_sun {
+    padding-left: 1.8rem;
+    /* border: 1px solid red; */
+    font-size: 19px;
+}
+
+/* work for footer */
+
+.copyright {
+    background-color: #f8f9fb;
+    padding: 1.8rem;
+    margin-top: 10rem;
+}
+
+.copyrighticon {
+    color: #37c9a4;
+    font-size: 25px;
+}
+
+.reserved {
+    font-size: 17px;
+    padding-left: 0.6rem;
+    text-align: center;
+}
+
+.social_icons {
+    /* border: 1px solid red; */
+    color: #37c9a4;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 55%;
+    margin-left: 4rem;
+    margin-top: 0.5rem;
+}
+
+@media (max-width:760px) {
+    .testimonial_para {
+        text-align: center;
+    }
+    .testimonial_paradiv {
+        text-align: center;
+    }
+}
